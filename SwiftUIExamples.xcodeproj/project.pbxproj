@@ -12,6 +12,7 @@
 		8B4D56B92B28FF4D005ADF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */; };
 		8B4D56BC2B28FF4D005ADF04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D56BB2B28FF4D005ADF04 /* Preview Assets.xcassets */; };
 		8B4D56C32B28FF94005ADF04 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D56C22B28FF94005ADF04 /* TextBootcamp.swift */; };
+		8B4D56C52B2909EE005ADF04 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D56C42B2909EE005ADF04 /* ShapesBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4D56BB2B28FF4D005ADF04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B4D56C22B28FF94005ADF04 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		8B4D56C42B2909EE005ADF04 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8B4D56B42B28FF4B005ADF04 /* SwiftUIExamplesApp.swift */,
 				8B4D56B62B28FF4B005ADF04 /* ContentView.swift */,
 				8B4D56C22B28FF94005ADF04 /* TextBootcamp.swift */,
+				8B4D56C42B2909EE005ADF04 /* ShapesBootcamp.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4D56C52B2909EE005ADF04 /* ShapesBootcamp.swift in Sources */,
 				8B4D56B72B28FF4B005ADF04 /* ContentView.swift in Sources */,
 				8B4D56C32B28FF94005ADF04 /* TextBootcamp.swift in Sources */,
 				8B4D56B52B28FF4B005ADF04 /* SwiftUIExamplesApp.swift in Sources */,
