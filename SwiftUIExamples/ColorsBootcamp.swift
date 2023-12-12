@@ -18,6 +18,8 @@ struct ColorsBootcamp: View {
                     Color("customBackgroundColor")
                 )
                 .frame(width: 300, height: 200)
+                .shadow(color: .yellow, radius: 5, x: 5.0, y: 5.0)
+            
             Button(action: {
                 mode.toggle()
             }, label: {
