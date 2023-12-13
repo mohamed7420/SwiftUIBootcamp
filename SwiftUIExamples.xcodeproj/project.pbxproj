@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B39054C2B2A4CF700D1FB4F /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39054B2B2A4CF700D1FB4F /* GradientsBootcamp.swift */; };
 		8B39054E2B2A51CC00D1FB4F /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39054D2B2A51CC00D1FB4F /* IconsBootcamp.swift */; };
+		8B3905502B2A550700D1FB4F /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39054F2B2A550700D1FB4F /* ImageBootcamp.swift */; };
 		8B4D56B52B28FF4B005ADF04 /* SwiftUIExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D56B42B28FF4B005ADF04 /* SwiftUIExamplesApp.swift */; };
 		8B4D56B72B28FF4B005ADF04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D56B62B28FF4B005ADF04 /* ContentView.swift */; };
 		8B4D56B92B28FF4D005ADF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		8B39054B2B2A4CF700D1FB4F /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 		8B39054D2B2A51CC00D1FB4F /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
+		8B39054F2B2A550700D1FB4F /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
 		8B4D56B12B28FF4B005ADF04 /* SwiftUIExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D56B42B28FF4B005ADF04 /* SwiftUIExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesApp.swift; sourceTree = "<group>"; };
 		8B4D56B62B28FF4B005ADF04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				8B4D56C62B2914A6005ADF04 /* ColorsBootcamp.swift */,
 				8B39054B2B2A4CF700D1FB4F /* GradientsBootcamp.swift */,
 				8B39054D2B2A51CC00D1FB4F /* IconsBootcamp.swift */,
+				8B39054F2B2A550700D1FB4F /* ImageBootcamp.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				8B4D56B72B28FF4B005ADF04 /* ContentView.swift in Sources */,
 				8B4D56C32B28FF94005ADF04 /* TextBootcamp.swift in Sources */,
 				8B4D56B52B28FF4B005ADF04 /* SwiftUIExamplesApp.swift in Sources */,
+				8B3905502B2A550700D1FB4F /* ImageBootcamp.swift in Sources */,
 				8B39054E2B2A51CC00D1FB4F /* IconsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
