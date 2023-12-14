@@ -27,7 +27,9 @@ struct SpacerBootcamp: View {
                         .background(.black)
                 }
             }
-        }
+        }.padding()
+        
+        Spacer()
     }
 }
 
