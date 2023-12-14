@@ -28,7 +28,7 @@ struct SpacerBootcamp: View {
                 }
             }
         }.padding()
-        
+
         Spacer()
     }
 }

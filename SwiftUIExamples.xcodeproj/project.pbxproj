@@ -22,6 +22,7 @@
 		8BF867A92B2BAB1000F5B05B /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867A82B2BAB1000F5B05B /* StacksBootcamp.swift */; };
 		8BF867AB2B2BAF9D00F5B05B /* PaddingAndSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867AA2B2BAF9D00F5B05B /* PaddingAndSpacerBootcamp.swift */; };
 		8BF867AD2B2BB52600F5B05B /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867AC2B2BB52600F5B05B /* SpacerBootcamp.swift */; };
+		8BF867AF2B2BBCD900F5B05B /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867AE2B2BBCD900F5B05B /* ForEachBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		8BF867A82B2BAB1000F5B05B /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		8BF867AA2B2BAF9D00F5B05B /* PaddingAndSpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerBootcamp.swift; sourceTree = "<group>"; };
 		8BF867AC2B2BB52600F5B05B /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
+		8BF867AE2B2BBCD900F5B05B /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				8BF867A82B2BAB1000F5B05B /* StacksBootcamp.swift */,
 				8BF867AA2B2BAF9D00F5B05B /* PaddingAndSpacerBootcamp.swift */,
 				8BF867AC2B2BB52600F5B05B /* SpacerBootcamp.swift */,
+				8BF867AE2B2BBCD900F5B05B /* ForEachBootcamp.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				8B4D56B52B28FF4B005ADF04 /* SwiftUIExamplesApp.swift in Sources */,
 				8BF867A92B2BAB1000F5B05B /* StacksBootcamp.swift in Sources */,
 				8BF867AD2B2BB52600F5B05B /* SpacerBootcamp.swift in Sources */,
+				8BF867AF2B2BBCD900F5B05B /* ForEachBootcamp.swift in Sources */,
 				8B3905502B2A550700D1FB4F /* ImageBootcamp.swift in Sources */,
 				8B39054E2B2A51CC00D1FB4F /* IconsBootcamp.swift in Sources */,
 			);
