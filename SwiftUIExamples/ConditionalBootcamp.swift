@@ -31,9 +31,14 @@ struct ConditionalView: View {
     }
     var body: some View {
         if showRect {
-            Rectangle()
-                .frame(width: 100, height: 100)
-                .background(.green)
+            VStack(spacing: 20) {
+                ProgressView()
+                    .progressViewStyle(.circular)
+                    .tint(.red)
+                Rectangle()
+                    .frame(width: 100, height: 100)
+                    .background(.green)
+            }
         } else {
             Circle()
                 .frame(width: 100, height: 100)
