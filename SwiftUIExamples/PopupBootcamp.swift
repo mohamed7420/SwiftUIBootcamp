@@ -21,7 +21,7 @@ struct PopupBootcamp: View {
             }
             .fullScreenCover(isPresented: $showSheet) {
                 SecondViewController()
-            }
+            } 
 //            .sheet(isPresented: $showSheet) {
 //                SecondViewController()
 //            }
