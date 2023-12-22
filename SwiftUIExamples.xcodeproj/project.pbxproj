@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B009EA82B35E45000D3ACFB /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B009EA72B35E45000D3ACFB /* AlertBootcamp.swift */; };
+		8B009EAA2B35EDD500D3ACFB /* ActionSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B009EA92B35EDD500D3ACFB /* ActionSheetBootcamp.swift */; };
 		8B33ABDE2B2E3B20008F10D5 /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33ABDD2B2E3B20008F10D5 /* TransitionBootcamp.swift */; };
 		8B33ABE02B2E4509008F10D5 /* PopupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33ABDF2B2E4509008F10D5 /* PopupBootcamp.swift */; };
 		8B39054C2B2A4CF700D1FB4F /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39054B2B2A4CF700D1FB4F /* GradientsBootcamp.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		8B009EA72B35E45000D3ACFB /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
+		8B009EA92B35EDD500D3ACFB /* ActionSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootcamp.swift; sourceTree = "<group>"; };
 		8B33ABDD2B2E3B20008F10D5 /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 		8B33ABDF2B2E4509008F10D5 /* PopupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupBootcamp.swift; sourceTree = "<group>"; };
 		8B39054B2B2A4CF700D1FB4F /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				8BD74E902B34549200110605 /* NavigationViewBootcamp.swift */,
 				8BD74E922B346D4A00110605 /* ListBootcamp.swift */,
 				8B009EA72B35E45000D3ACFB /* AlertBootcamp.swift */,
+				8B009EA92B35EDD500D3ACFB /* ActionSheetBootcamp.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B009EAA2B35EDD500D3ACFB /* ActionSheetBootcamp.swift in Sources */,
 				8BB45BE12B32315400053ACD /* PopOverBootcamp.swift in Sources */,
 				8B39054C2B2A4CF700D1FB4F /* GradientsBootcamp.swift in Sources */,
 				8BFE92B32B2D137700D35B0F /* BindingBootcamp.swift in Sources */,
