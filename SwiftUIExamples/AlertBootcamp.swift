@@ -18,9 +18,13 @@ struct AlertBootcamp: View {
             .foregroundStyle(.white)
             .bold()
             .alert(isPresented: $showAlert, content: {
-                Alert(title: Text("Alert Title"), message: Text("Alert Message description"), dismissButton: .cancel())
+                createAlert()
             })
         }
+    }
+
+    private func createAlert() -> Alert {
+        return Alert(title: Text("Here is the title"), message: Text("Here is the message description"), primaryButton: .default(Text("Okay")), secondaryButton: .destructive(Text("Cancel")))
     }
 }
 
