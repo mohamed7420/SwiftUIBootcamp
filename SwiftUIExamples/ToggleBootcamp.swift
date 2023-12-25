@@ -13,7 +13,7 @@ struct ToggleBootcamp: View {
         ZStack {
             Color.green.ignoresSafeArea()
             VStack {
-                
+
                 Spacer()
 
                 Text("Status: \(toggleIsOn ? "Online" : "Offline")")
@@ -25,7 +25,10 @@ struct ToggleBootcamp: View {
                         .bold()
                         .foregroundStyle(.white)
                         .font(.system(size: 20))
-                }).padding([.leading, .trailing], 100)
+                })
+                .toggleStyle(.switch)
+                .tint(.yellow)
+                .padding([.leading, .trailing], 100)
 
                 Spacer()
             }
