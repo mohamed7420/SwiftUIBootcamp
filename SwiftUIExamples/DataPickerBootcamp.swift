@@ -24,9 +24,11 @@ struct DataPickerBootcamp: View {
                 Text(dateFormatter.string(from: selectedDate))
                     .font(.title)
                     .foregroundStyle(.white)
-                DatePicker(selection: $selectedDate, displayedComponents: .date) {
-                    Text("Date Picker")
-                }.accentColor(.indigo)
+                DatePicker("Select a date",
+                           selection: $selectedDate, in: ...Date(),
+                           displayedComponents: .date)
+                        .labelsHidden()
+                        .accentColor(.orange)
 
             }
         }
