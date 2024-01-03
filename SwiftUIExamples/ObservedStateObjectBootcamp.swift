@@ -38,6 +38,9 @@ class FruitViewModel: ObservableObject {
 }
 
 struct ObservedStateObjectBootcamp: View {
+    //State Object -> Creating
+    //Observed Object -> Passing
+    
     @StateObject var viewModel = FruitViewModel()
 
     var body: some View {
@@ -62,7 +65,7 @@ struct ObservedStateObjectBootcamp: View {
             .navigationTitle("State Objects")
             .toolbar {
                 NavigationLink {
-                    AnotherView()
+                    AnotherView(viewModel: viewModel)
                 } label: {
                     Image(systemName: "arrow.right")
                         .foregroundStyle(.pink)
@@ -80,13 +83,20 @@ struct ObservedStateObjectBootcamp: View {
 }
 
 struct AnotherView: View {
+
+    @ObservedObject var viewModel: FruitViewModel
+
     var body: some View {
         ZStack {
             Color.white.ignoresSafeArea()
-            Text("Hello, iOS Developers")
-                .foregroundStyle(.black)
-                .font(.title2)
-                .bold()
+            LazyVStack {
+                ForEach(viewModel.fruits) { fruit in
+                    Text(fruit.name)
+                        .foregroundStyle(.red)
+                        .font(.title2)
+                        .bold()
+                }
+            }
         }
     }
 }
