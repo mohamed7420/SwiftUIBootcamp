@@ -40,7 +40,6 @@ class FruitViewModel: ObservableObject {
 struct ObservedStateObjectBootcamp: View {
     //State Object -> Creating
     //Observed Object -> Passing
-    
     @StateObject var viewModel = FruitViewModel()
 
     var body: some View {
