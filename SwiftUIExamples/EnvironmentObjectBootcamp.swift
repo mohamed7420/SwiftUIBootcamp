@@ -28,15 +28,18 @@ struct EnvironmentObjectBootcamp: View {
     var body: some View {
         NavigationStack {
             NavigationView {
-                List(viewModel.titles, id: \.self) { title in
-                    Text(title)
-                        .onTapGesture {
-                            showSheet.toggle()
-                        }.fullScreenCover(isPresented: $showSheet) {
-                            EnvironmentScreen()
-                        }
+                VStack {
+                    List(viewModel.titles, id: \.self) { title in
+                        Text(title)
+                            .onTapGesture {
+                                showSheet.toggle()
+                            }.fullScreenCover(isPresented: $showSheet) {
+                                EnvironmentScreen()
+                            }
+                    }
+                    .listStyle(.inset)
+
                 }
-                .listStyle(.insetGrouped)
             }
             .navigationTitle("Environment Objects")
 
