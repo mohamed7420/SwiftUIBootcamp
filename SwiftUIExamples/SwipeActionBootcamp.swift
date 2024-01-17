@@ -21,7 +21,7 @@ struct SWipeActionBootcamp: View {
                 Text(fruit)
                     .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                         Button("POST") {
-                            
+
                         }
                     }
             }
