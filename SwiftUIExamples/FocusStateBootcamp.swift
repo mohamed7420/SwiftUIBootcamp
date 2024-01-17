@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct FocusStateBootcamp: View {
+
+    enum SignUpFields: Hashable {
+        case userName
+        case password
+    }
+
     @State var userNameText: String = ""
-    @FocusState var userNameInFocus: Bool
     @State var passwordText: String = ""
-    @FocusState var passwordInFocus: Bool
+    @FocusState var typeOfField: SignUpFields?
 
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
             VStack {
                 TextField("Enter your name..", text: $userNameText)
-                    .focused($userNameInFocus)
+                    .focused($typeOfField, equals: .userName)
                     .padding([.vertical, .horizontal], 10)
                     .textContentType(.emailAddress)
                     .background(.white)
@@ -26,7 +31,7 @@ struct FocusStateBootcamp: View {
                     .padding()
 
                 TextField("Enter your password..", text: $passwordText)
-                    .focused($passwordInFocus)
+                    .focused($typeOfField, equals: .password)
                     .padding([.vertical, .horizontal], 10)
                     .textContentType(.emailAddress)
                     .background(.white)
@@ -40,11 +45,9 @@ struct FocusStateBootcamp: View {
                     if isUserNameValid && isPasswordValid {
                         print("SIGN UP 🚀")
                     } else if isUserNameValid {
-                        userNameInFocus = false
-                        passwordInFocus = true
+                        typeOfField = .password
                     } else {
-                        passwordInFocus = false
-                        userNameInFocus = true
+                        typeOfField = .userName
                     }
                 }
                 .foregroundStyle(.white)
