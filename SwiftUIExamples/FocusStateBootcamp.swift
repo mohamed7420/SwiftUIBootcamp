@@ -30,9 +30,8 @@ struct FocusStateBootcamp: View {
                     .cornerRadius(10)
                     .padding()
 
-                TextField("Enter your password..", text: $passwordText)
+                SecureField("Enter your password..", text: $passwordText)
                     .focused($typeOfField, equals: .password)
-                    .textContentType(.password)
                     .padding([.vertical, .horizontal], 10)
                     .textContentType(.emailAddress)
                     .background(.white)
