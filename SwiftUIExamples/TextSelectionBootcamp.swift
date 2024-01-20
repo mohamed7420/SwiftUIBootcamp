@@ -12,7 +12,6 @@ struct TextSelectionBootcamp: View {
         ZStack {
             Color.blue.ignoresSafeArea()
             Text("Hello, SwiftUI")
-                .bold()
                 .foregroundStyle(.white)
                 .textSelection(.enabled)
         }
