@@ -71,6 +71,7 @@
 		8BF867B12B2BC4C700F5B05B /* ScrollBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867B02B2BC4C700F5B05B /* ScrollBootcamp.swift */; };
 		8BF867B32B2BCDB800F5B05B /* GridsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867B22B2BCDB800F5B05B /* GridsBootcamp.swift */; };
 		8BFD5AD62B7CB35B00B214FC /* OnlongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */; };
+		8BFD5AD82B7CE0C000B214FC /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */; };
 		8BFE92B32B2D137700D35B0F /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE92B22B2D137700D35B0F /* BindingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +141,7 @@
 		8BF867B02B2BC4C700F5B05B /* ScrollBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBootcamp.swift; sourceTree = "<group>"; };
 		8BF867B22B2BCDB800F5B05B /* GridsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsBootcamp.swift; sourceTree = "<group>"; };
 		8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlongPressGesture.swift; sourceTree = "<group>"; };
+		8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 		8BFE92B22B2D137700D35B0F /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -236,6 +238,7 @@
 				8BBA811A2B63FA3600109C07 /* NativePopoverBootcamp.swift */,
 				8BBA811C2B64082600109C07 /* ViewThatFitBootcamp.swift */,
 				8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */,
+				8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -333,6 +336,7 @@
 				8B4D56C72B2914A6005ADF04 /* ColorsBootcamp.swift in Sources */,
 				8BD57C1F2B3B0FD600CCF5A7 /* DataPickerBootcamp.swift in Sources */,
 				8B3905522B2A5C9600D1FB4F /* FrameBootcamp.swift in Sources */,
+				8BFD5AD82B7CE0C000B214FC /* MagnificationGesture.swift in Sources */,
 				8BBAB0402B2C7FC1009242F0 /* ExtraFunctionBootcamp.swift in Sources */,
 				8B4D56C52B2909EE005ADF04 /* ShapesBootcamp.swift in Sources */,
 				8BA688552B4EABEB00E2C2AD /* AppStorageBootcamp.swift in Sources */,

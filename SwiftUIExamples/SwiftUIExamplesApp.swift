@@ -12,7 +12,8 @@ struct SwiftUIExamplesApp: App {
     var body: some Scene {
         WindowGroup {
             //  ContentView()
-            FocusStateBootcamp()
+            // FocusStateBootcamp()
+            MagnificationGesture()
         }
     }
 }
