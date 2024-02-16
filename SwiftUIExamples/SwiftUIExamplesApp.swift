@@ -13,7 +13,8 @@ struct SwiftUIExamplesApp: App {
         WindowGroup {
             //  ContentView()
             // FocusStateBootcamp()
-            MagnificationGesture()
+            //MagnificationGesture()
+            DraggableView()
         }
     }
 }
