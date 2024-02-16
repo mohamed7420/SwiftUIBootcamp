@@ -72,6 +72,7 @@
 		8BF867B32B2BCDB800F5B05B /* GridsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF867B22B2BCDB800F5B05B /* GridsBootcamp.swift */; };
 		8BFD5AD62B7CB35B00B214FC /* OnlongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */; };
 		8BFD5AD82B7CE0C000B214FC /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */; };
+		8BFD5ADA2B7CE85600B214FC /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD5AD92B7CE85600B214FC /* RotationGesture.swift */; };
 		8BFE92B32B2D137700D35B0F /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE92B22B2D137700D35B0F /* BindingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +143,7 @@
 		8BF867B22B2BCDB800F5B05B /* GridsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsBootcamp.swift; sourceTree = "<group>"; };
 		8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlongPressGesture.swift; sourceTree = "<group>"; };
 		8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
+		8BFD5AD92B7CE85600B214FC /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		8BFE92B22B2D137700D35B0F /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -239,6 +241,7 @@
 				8BBA811C2B64082600109C07 /* ViewThatFitBootcamp.swift */,
 				8BFD5AD52B7CB35B00B214FC /* OnlongPressGesture.swift */,
 				8BFD5AD72B7CE0C000B214FC /* MagnificationGesture.swift */,
+				8BFD5AD92B7CE85600B214FC /* RotationGesture.swift */,
 				8B4D56B82B28FF4D005ADF04 /* Assets.xcassets */,
 				8B4D56BA2B28FF4D005ADF04 /* Preview Content */,
 			);
@@ -350,6 +353,7 @@
 				8BF23DDE2B2C4BF500BDEC83 /* ButtonsBootcamp.swift in Sources */,
 				8BF23DDC2B2C457C00BDEC83 /* SafeAreaBootcamp.swift in Sources */,
 				8B699AB02B3B9DEC004B4BE8 /* TabViewBootcamp.swift in Sources */,
+				8BFD5ADA2B7CE85600B214FC /* RotationGesture.swift in Sources */,
 				8BF867B12B2BC4C700F5B05B /* ScrollBootcamp.swift in Sources */,
 				8B54910F2B463382002DCD26 /* EnvironmentObjectBootcamp.swift in Sources */,
 				8B616DF22B38CE16007CAF55 /* TextFieldBootcamp.swift in Sources */,

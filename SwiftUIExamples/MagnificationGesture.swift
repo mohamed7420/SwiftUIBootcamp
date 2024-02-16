@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct MagnificationGesture: View {
-    
+
     @State private var currentAmount: CGFloat = 1.0
-    
+
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea()
-            
+
             Rectangle()
                 .frame(width: 300, height: 50)
                 .foregroundStyle(.white)
