@@ -11,10 +11,7 @@ import SwiftUI
 struct SwiftUIExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            //  ContentView()
-            // FocusStateBootcamp()
-            //MagnificationGesture()
-            DraggableView()
+            GeometryReaderBootcamp()
         }
     }
 }
